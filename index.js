@@ -1,5 +1,6 @@
 // packages needed for this application
 const inquirer = require('inquirer')
+const fs = require('fs');
 
 // array of questions for user input
 const questions = [
@@ -87,7 +88,11 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions);
+    inquirer.prompt(questions).then(answers => {
+        fs.writeFile("SampleReadMe.md", JSON.stringify(answers), function (err){
+            console.log(err)
+        })
+    });
 }
 
 // Function call to initialize app

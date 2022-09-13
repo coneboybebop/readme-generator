@@ -1,0 +1,1 @@
+{"title":"Yes","description":"Yes","install":"Yes","usage":"Yes","contributeConfirm":false,"license":"none","tests":"none"}

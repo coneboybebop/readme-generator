@@ -82,6 +82,11 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'If there testing options for your project, please describe them here:'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your github username?'
     }
 ];
 

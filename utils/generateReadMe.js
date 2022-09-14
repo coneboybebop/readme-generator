@@ -8,12 +8,13 @@ const generateReadMe = (answers) => {
         - Usage
         - Contribution
         - Testing
+        - GitHub
 
 
         # Description: ${answers.description}
 
 
-        # Installation Instructions: ${answers.installation}
+        # Installation Instructions: ${answers.install}
 
 
         # Usage: ${answers.usage}
@@ -23,6 +24,8 @@ const generateReadMe = (answers) => {
 
 
         # Testing: ${answers.tests}
+
+        # Github: https://github.com/${answers.github}
         `;
 
         

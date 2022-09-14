@@ -26,6 +26,6 @@ const generateReadMe = (answers) => {
         `;
 
         
-}
+};
 
 module.exports = generateReadMe;
